@@ -65,7 +65,7 @@ Desarrollar una aplicación integral de gestión de archivos en lenguaje C que i
 ---
 
 ## 5. Diagrama de casos de uso
-![Diagrama de Casos de Uso](diagrama%20de%20casos%20de%20uso.png)
+![Diagrama de Casos de Uso](cryptonote_casos_de_uso.png)
 El sistema contempla tres actores:
 
 **Usuario no autenticado:** Puede registrar una cuenta o iniciar sesión. No tiene acceso a la gestión de archivos.
