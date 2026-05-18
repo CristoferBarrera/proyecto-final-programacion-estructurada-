@@ -36,7 +36,7 @@
 | 4 | Jiménez Hernández Xicoténcatl | 
 | 5 | Sandoval Tamayo José Heynar | 
 
-**Profesor:** <!-- Escribe aquí el nombre del profesor -->
+**Profesor:** Emilio Gabriel Rejon Herrera
 
 ---
 
