@@ -1,4 +1,4 @@
-# 🔐 CryptoNote — Sistema de Gestión y Cifrado de Archivos
+#  CryptoNote — Sistema de Gestión y Cifrado de Archivos
 
 **Equipo:** Estructuradores  
 **Materia:** Programación Estructurada — Segundo Semestre  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 CryptoNote es una aplicación de consola desarrollada en lenguaje C estándar (ANSI C) que integra tres funcionalidades principales:
 
@@ -18,7 +18,7 @@ El sistema opera completamente **offline**, sin dependencias externas ni conexi�
 
 ---
 
-## 🗂️ Estructura del repositorio
+##  Estructura del repositorio
 
 ```
 CryptoNote/
@@ -31,7 +31,7 @@ CryptoNote/
 
 ---
 
-## 👥 Integrantes
+##  Integrantes
 
 | Nombre | Rol |
 |--------|-----|
@@ -43,7 +43,7 @@ CryptoNote/
 
 ---
 
-## ⚙️ Compilación y ejecución
+##  Compilación y ejecución
 
 ### Requisitos
 - Compilador C estándar: GCC o Clang
@@ -62,7 +62,7 @@ gcc proyecto_c.c -o cryptonote
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 ### Menú principal
 ```
@@ -91,18 +91,18 @@ gcc proyecto_c.c -o cryptonote
 
 ---
 
-## 🔒 Algoritmo de cifrado
+##  Algoritmo de cifrado
 
 Se utiliza cifrado **XOR cíclico**:
 
 - Cada byte del archivo se combina con un carácter de la clave usando la operación lógica XOR.
 - La clave se recorre cíclicamente (`clave[contador % longitud_clave]`).
 - La operación es **simétrica**: aplicar XOR dos veces con la misma clave restaura el dato original.
-- ⚠️ No es un cifrado criptográficamente robusto; es adecuado para fines educativos y protección ligera.
+-  No es un cifrado criptográficamente robusto; es adecuado para fines educativos y protección ligera.
 
 ---
 
-## ⚠️ Limitaciones conocidas
+##  Limitaciones conocidas
 
 - Las contraseñas se almacenan en texto plano en `file_usuarios.txt`.
 - `system("cls")` solo funciona en Windows. En Linux usar `system("clear")`.
