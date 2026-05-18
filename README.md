@@ -41,26 +41,6 @@ CryptoNote/
 | Jiménez Hernández Xicoténcatl | Documentador |
 | Sandoval Tamayo José Heynar | Documentador |
 
----
-
-##  Compilación y ejecución
-
-### Requisitos
-- Compilador C estándar: GCC o Clang
-- Sistema operativo: Windows (usa `system("cls")` para limpiar pantalla)
-
-### Compilar con GCC
-```bash
-gcc proyecto_c.c -o cryptonote
-```
-
-### Ejecutar
-```bash
-./cryptonote
-```
-> En Windows: `cryptonote.exe`
-
----
 
 ##  Funcionalidades
 
